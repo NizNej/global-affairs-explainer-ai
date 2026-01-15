@@ -1,13 +1,6 @@
-# Global Affairs Explainer AI (RAG)
+# Global Affairs Explainer AI
 
 This project is an AI-powered web application that explains global affairs topics using Retrieval-Augmented Generation (RAG).
-
-## Features
-- Natural language question answering
-- Retrieval-Augmented Generation (RAG)
-- Curated knowledge base
-- React frontend
-- FastAPI backend
 
 ## Technologies Used
 - Python
@@ -25,3 +18,21 @@ python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 python -m uvicorn main:app --reload
+
+```
+
+### Frontend
+```bash
+cd frontend
+npm install
+npm start
+
+```
+
+Example Questions
+
+    Explain the conflict in Ukraine
+
+    What is NATO and why is it important?
+
+    Why is Sudan politically unstable?
